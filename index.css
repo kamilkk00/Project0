@@ -18,7 +18,7 @@ body{
     border: 1px solid #ccc;
     outline: none;
 }
-#text:hover, #submit:hover, #luck:hover{
+#text:hover, #submit:hover, #luck:hover, #subimg:hover{
     border: 1px solid rgb(154, 150, 150);
 }
 
@@ -69,5 +69,19 @@ form{
 }
 #luck{
     margin-left: 10px;
+}
+#subimg{
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: white;
+    text-align: right;
+    border:none;   
+    font-size: 14px;
+    background-color: rgb(250, 248, 248);
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 15px;
+
 }
 
